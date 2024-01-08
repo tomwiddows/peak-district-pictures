@@ -1,0 +1,28 @@
+#hero-image {
+    background-image: url('/assets/images/peaks-background-blur.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 0;
+    padding-top: 35.10%; /* (img-height / img-width * width) */
+    position: relative;
+
+}
+
+header div {
+    position: absolute;
+    top: 40%; 
+    bottom: 0; 
+    left: 0%; 
+    right: 0;
+    text-align: center;
+    color: floralwhite;
+}
+
+.activities {
+    width: 25vw;
+}
+
+.middle-content {
+    text-align: center;
+}
