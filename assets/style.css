@@ -19,12 +19,21 @@ header div {
     color: floralwhite;
 }
 
-.activities {
+.activities-left {
     min-width: 25vw;
     max-width: 100vw;
     height: auto;
+    padding: 1rem 0 1rem 0;
+}
+
+.activities-right {
+    min-width: 25vw;
+    max-width: 100vw;
+    height: auto;
+    padding: 1rem 0 1rem 0;
 }
 
 .middle-content {
     text-align: center;
+    padding: 20% 0 2% 0;
 }
