@@ -5,6 +5,7 @@
     width: 100vw;
     height: 0;
     padding-top: 35.10%; /* (img-height / img-width * width) */
+    margin-top: 55px;
     position: relative;
     background-color: rgb(108, 196, 196);
 }
