@@ -2,7 +2,17 @@
 
 ## Customer Goals
 
+- Find other outgoing people who visit similar locations
+- Discover new locations to visit
+- Compare practices, photography skills and routes
+- Gain inspiration to go out and explore
 
+## Business Goals
+
+- Create a connected community of explorers
+- Provide a space to share experiences
+- Prioritise UX to maximise time spent on site
+- Use bright pictures and calm colours to stimulate positive emotions
 
 # User Experience
 
