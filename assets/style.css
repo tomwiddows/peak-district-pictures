@@ -35,22 +35,14 @@ header div {
     font-style: italic;
 }
 
-.activities-left {
+.activities {
     /*min-width: 25vw;*/
     max-width: 100vw;
     height: auto;
-    padding: 1rem 0 1rem;
-}
-
-.activities-right {
-    /*min-width: 25vw;*/
-    max-width: 100vw;
-    height: auto;
-    padding-top: 1rem 0 1rem;
+    
 }
 
 .middle-content {
     text-align: center;
-    padding-top: 10%;
     font-family: Kanit, serif, Arial;
 }
