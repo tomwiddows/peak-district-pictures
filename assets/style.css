@@ -7,7 +7,7 @@
     padding-top: 56.25%; /* (img-height / img-width * width) */
     margin-top: 55px;
     position: relative;
-    background-color: rgb(108, 196, 196);
+    background-color: skyblue;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,7 +20,7 @@
         padding-top: 35.1%; /* (img-height / img-width * width) */
         margin-top: 55px;
         position: relative;
-        background-color: rgb(108, 196, 196);
+        background-color: skyblue;
     }
 }
 
@@ -30,13 +30,14 @@ header {
 
 header div {
     position: absolute;
-    top: 33%; 
+    top: 80%; 
     bottom: 0; 
-    left: 0; 
+    left: 5%; 
     right: 0;
-    text-align: center;
+    text-align: left;
     color: floralwhite;
     font-family: Kanit, serif, Arial;
+    font-size: larger;
     font-weight: bolder;
     font-style: italic;
 }
