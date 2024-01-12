@@ -1,8 +1,8 @@
-#hero-image-lg {
+#hero-image {
     background-image: url('/assets/images/peaks-background-lg.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 0;
     padding-top: 35.10%; /* (img-height / img-width * width) */
     margin-top: 55px;
@@ -10,16 +10,18 @@
     background-color: rgb(108, 196, 196);
 }
 
-#hero-image-sm {
-    background-image: url('/assets/images/peaks-background-sm.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 56.25%; /* (img-height / img-width * width) */
-    margin-top: 55px;
-    position: relative;
-    background-color: rgb(108, 196, 196);
+@media screen and (max-width: 767px) {
+    #hero-image {
+        background-image: url('/assets/images/peaks-background-sm.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 0;
+        padding-top: 56.25%; /* (img-height / img-width * width) */
+        margin-top: 55px;
+        position: relative;
+        background-color: rgb(108, 196, 196);
+    }
 }
 
 header div {
@@ -35,14 +37,15 @@ header div {
     font-style: italic;
 }
 
+
 .activities {
-    /*min-width: 25vw;*/
     max-width: 100vw;
     height: auto;
-    padding-bottom: 0.5em;
+    padding: 0.25em 0 0.25em;
 }
 
 .middle-content {
     text-align: center;
     font-family: Kanit, serif, Arial;
+    padding: 2.5em 0 2em;
 }
