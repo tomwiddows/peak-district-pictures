@@ -2,7 +2,7 @@
     background-image: url('/assets/images/peaks-background-sm.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 0;
     padding-top: 56.25%; /* (img-height / img-width * width) */
     margin-top: 55px;
@@ -15,7 +15,7 @@
         background-image: url('/assets/images/peaks-background-lg.jpg');
         background-size: contain;
         background-repeat: no-repeat;
-        width: 100vw;
+        width: 100%;
         height: 0;
         padding-top: 35.1%; /* (img-height / img-width * width) */
         margin-top: 55px;
@@ -25,7 +25,7 @@
 }
 
 header {
-    width: 100vw;
+    width: 100%;
 }
 
 header div {
