@@ -76,3 +76,7 @@ header div {
         padding: 2em 0 2em;
     }
 }
+
+.videoclip {
+    max-height: 100vh;
+}
