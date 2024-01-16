@@ -1,3 +1,11 @@
+/*UNIVERSAL STYLES*/
+
+* {
+    font-family: Kanit, serif, Arial;
+}
+
+/*header*/
+
 #hero-image {
     background-image: url('/assets/images/peaks-background-sm.jpg');
     background-size: contain;
@@ -36,12 +44,16 @@ header div {
     right: 0;
     text-align: left;
     color: floralwhite;
-    font-family: Kanit, serif, Arial;
     font-size: larger;
     font-weight: bolder;
     font-style: italic;
 }
 
+/*content section*/
+
+
+
+/*INDEX*/
 
 .activities {
     max-width: 100vw;
@@ -51,32 +63,30 @@ header div {
 
 .row-1-and-3-text {
     text-align: center;
-    font-family: Kanit, serif, Arial;
     padding: 2.5em 0 2em;
 }
 
 @media screen and (min-width: 768px) {
     .row-1-and-3-text {
         text-align: center;
-        font-family: Kanit, serif, Arial;
         padding: 1em 0 2em;
     }
 }
 
 .row-2-text {
     text-align: center;
-    font-family: Kanit, serif, Arial;
     padding: 2.5em 0 2em;
 }
 
 @media only screen and (min-width: 768px) {
     .row-2-text {
         text-align: center;
-        font-family: Kanit, serif, Arial;
         padding: 2em 0 2em;
     }
 }
 
+/*GALLERY*/
+
 .videoclip {
-    max-height: 100vh;
+    max-height: 100%;
 }
