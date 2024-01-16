@@ -87,6 +87,20 @@ header div {
 
 /*GALLERY*/
 
+@media screen and (min-width: 768px) {
+    #slim {
+        margin: 0 15vw 0 15vw;
+    }
+}
+
+.centralise {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
 .videoclip {
     max-height: 100%;
 }
