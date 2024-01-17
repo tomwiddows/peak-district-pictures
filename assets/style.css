@@ -92,13 +92,17 @@ header div {
     color: floralwhite;
 }
 
+.white-link {
+    color:floralwhite;
+}
+
 .slim {
-    margin: 0 3% 0 3%!important;
+    margin: 0 3% 0 3%;
 }
 
 @media screen and (min-width: 768px) {
     .slim {
-        margin: 0 15vw 0 15vw!important;
+        margin: 0 15vw 0 15vw;
     }
 }
 
