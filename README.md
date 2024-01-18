@@ -38,3 +38,20 @@ __Returning User__
 - I want to upload my own photos and view other members' photos.
 - I want the site to have the same layout and navigation system as before for ease of use
 - I want to be reminded of my times adventuring and to want to do it again
+
+#Wireframes
+
+Small Screens
+
+![Homepage](/assets/images/wf-home-sm.jpg)
+![Second Page](/assets/images/wf-page2-lsm.jpg)
+![Third Page](/assets/images/wf-join-sm.jpg)
+![Landing Page](/assets/images/wf-landing-sm.jpg)
+
+Medium Screens & Bigger
+
+![Homepage](/assets/images/wf-home-lg.jpg)
+![Second Page](/assets/images/wf-page2-lg.jpg)
+![Third Page](/assets/images/wf-join-lg.jpg)
+![Landing Page](/assets/images/wf-landing-lg.jpg)
+
