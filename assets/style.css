@@ -49,6 +49,12 @@ header div {
     font-style: italic;
 }
 
+.blue-background {
+    background-color: skyblue;
+    color: black;
+    padding-top: 6px;
+}
+
 /*content section*/
 
 
@@ -87,14 +93,8 @@ header div {
 
 /*GALLERY*/
 
-#contents-box {
-    background-color: skyblue;
-    color: floralwhite;
-    padding-top: 6px;
-}
-
 .white-link {
-    color:floralwhite;
+    color: black;
 }
 
 .slim {
@@ -105,6 +105,10 @@ header div {
     .slim {
         margin: 0 15vw 0 15vw;
     }
+}
+
+.lower-heading {
+    padding-top: 55px;
 }
 
 .centralise {
