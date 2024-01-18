@@ -15,7 +15,7 @@
     padding-top: 56.25%; /* (img-height / img-width * width) */
     margin-top: 55px;
     position: relative;
-    background-color: skyblue;
+    background-color: #35748e;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,7 +28,7 @@
         padding-top: 35.1%; /* (img-height / img-width * width) */
         margin-top: 55px;
         position: relative;
-        background-color: skyblue;
+        background-color: #35748e;
     }
 }
 
@@ -50,8 +50,8 @@ header div {
 }
 
 .blue-background {
-    background-color: skyblue;
-    color: black;
+    background-color: #35748e;
+    color: floralwhite;
     padding-top: 6px;
 }
 
@@ -93,8 +93,8 @@ header div {
 
 /*GALLERY*/
 
-.white-link {
-    color: black;
+.white-text {
+    color: floralwhite;
 }
 
 .slim {
@@ -103,12 +103,12 @@ header div {
 
 @media screen and (min-width: 768px) {
     .slim {
-        margin: 0 15vw 0 15vw;
+        margin: 0 12vw 0 12vw;
     }
 }
 
 .lower-heading {
-    padding-top: 55px;
+    padding-top: 57px;
 }
 
 .centralise {
