@@ -90,6 +90,7 @@ header div {
 #contents-box {
     background-color: skyblue;
     color: floralwhite;
+    padding-top: 6px;
 }
 
 .white-link {
@@ -111,7 +112,7 @@ header div {
 }
 
 .fit {
-    max-height: 80vh;
+    max-height: 85vh;
 }
 
 .justify {
