@@ -43,17 +43,11 @@ __Returning User__
 
 __Small Screens__
 
-<img src="/assets/images/wf-home-sm.jpg" alt="Homepage wireframe for small screens" width="200px" display="inline">
-<img src="/assets/images/wf-page2-sm.jpg" alt="Second page wireframe for small screens" width="200px" display="inline">
-<img src="/assets/images/wf-join-sm.jpg" alt="Third page wireframe for small screens" width="200px" display="inline">
-<img src="/assets/images/wf-landing-sm.jpg" alt="Landing page wireframe for small screens" width="200px" display="inline">
+<img src="/assets/images/wf-home-sm.jpg" alt="Homepage wireframe for small screens" width="200px" display="inline"/> <img src="/assets/images/wf-page2-sm.jpg" alt="Second page wireframe for small screens" width="200px" display="inline"/> <img src="/assets/images/wf-join-sm.jpg" alt="Third page wireframe for small screens" width="200px" display="inline"/> <img src="/assets/images/wf-landing-sm.jpg" alt="Landing page wireframe for small screens" width="200px" display="inline"/>
 
 <br>
 
 __Medium Screens & Bigger__
 
-<img src="/assets/images/wf-home-lg.jpg" alt="Homepage wireframe for medium and larger screens" width="200px" display="inline">
-<img src="/assets/images/wf-page2-lg.jpg" alt="Second page wireframe for medium and larger screens" width="200px" display="inline">
-<img src="/assets/images/wf-join-lg.jpg" alt="Third page wireframe for medium and larger screens" width="200px" display="inline">
-<img src="/assets/images/wf-landing-lg.jpg" alt="Landing page wireframe for medium and larger screens" width="200px" display="inline">
+<img src="/assets/images/wf-home-lg.jpg" alt="Homepage wireframe for medium and larger screens" width="200px" display="inline"/> <img src="/assets/images/wf-page2-lg.jpg" alt="Second page wireframe for medium and larger screens" width="200px" display="inline"/> <img src="/assets/images/wf-join-lg.jpg" alt="Third page wireframe for medium and larger screens" width="200px" display="inline"/> <img src="/assets/images/wf-landing-lg.jpg" alt="Landing page wireframe for medium and larger screens" width="200px" display="inline"/>
 
