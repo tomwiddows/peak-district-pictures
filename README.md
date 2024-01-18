@@ -39,16 +39,17 @@ __Returning User__
 - I want the site to have the same layout and navigation system as before for ease of use
 - I want to be reminded of my times adventuring and to want to do it again
 
-#Wireframes
+# Wireframes
 
-Small Screens
+__Small Screens__
 
 ![Homepage](/assets/images/wf-home-sm.jpg)
+<img src="/assets/images/wf-home-sm.jpg" alt="Homepage wireframe for small screens" width="200px">
 ![Second Page](/assets/images/wf-page2-lsm.jpg)
 ![Third Page](/assets/images/wf-join-sm.jpg)
 ![Landing Page](/assets/images/wf-landing-sm.jpg)
 
-Medium Screens & Bigger
+__Medium Screens & Bigger__
 
 ![Homepage](/assets/images/wf-home-lg.jpg)
 ![Second Page](/assets/images/wf-page2-lg.jpg)
