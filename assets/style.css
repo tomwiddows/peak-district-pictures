@@ -93,7 +93,7 @@ p a {
     }
 }
 
-/*GALLERY*/
+/*VISIT PAGE*/
 
 .white-text {
     color: floralwhite;
@@ -127,4 +127,11 @@ p a {
 
 .videoclip {
     max-height: 100%;
+}
+
+/*COMMUNITY PAGE*/
+
+#custom-file {
+    display: inline;
+    max-width: 50vw;
 }
