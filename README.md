@@ -39,6 +39,11 @@ __Returning User__
 - I want the site to have the same layout and navigation system as before for ease of use
 - I want to be reminded of my times adventuring and to want to do it again
 
+__Site Administrator__
+
+- The page should be easily manageable
+- 
+
 # Wireframes
 
 __Small Screens__
