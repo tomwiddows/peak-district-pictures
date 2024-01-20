@@ -52,11 +52,6 @@ header div {
 .blue-background {
     background-color: #35748e;
     color: floralwhite;
-    padding: 6px 6px;
-}
-
-.gray-backgroud {
-    background-color: #9eb7c2;
 }
 
 /*content sections*/
@@ -71,6 +66,23 @@ p a {
 
 .centralise {
     text-align: center;
+}
+
+.gray-background {
+    background-color: #eefaff;
+
+}
+
+@media screen and (min-width: 768px) {
+    .gray-background-lg {
+        background-color: #eefaff;
+
+    }
+}
+
+
+.vertical-spacing {
+    padding: 57px 0 57px 0;
 }
 
 /*footer*/
@@ -123,8 +135,8 @@ p a {
     }
 }
 
-.lower-heading {
-    padding-top: 57px;
+#contents-box {
+    padding: 6px 6px;
 }
 
 .fit {
