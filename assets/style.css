@@ -55,10 +55,18 @@ header div {
     padding-top: 6px;
 }
 
-/*content section*/
+/*content sections*/
 
 p a {
     text-decoration: underline;
+}
+
+.white-text {
+    color: floralwhite;
+}
+
+.centralise {
+    text-align: center;
 }
 
 /*INDEX*/
@@ -95,10 +103,6 @@ p a {
 
 /*VISIT PAGE*/
 
-.white-text {
-    color: floralwhite;
-}
-
 .slim {
     margin: 0 3% 0 3%;
 }
@@ -111,10 +115,6 @@ p a {
 
 .lower-heading {
     padding-top: 57px;
-}
-
-.centralise {
-    text-align: center;
 }
 
 .fit {
