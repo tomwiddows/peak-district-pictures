@@ -59,7 +59,7 @@ header div {
 p a {
     text-decoration: underline;
 }
-
+/*Separate rule to turn text in <a> links white*/
 .white-text {
     color: floralwhite;
 }
@@ -204,9 +204,4 @@ input {
     width: 100%;
 }
 
-
 /*THANK YOU PAGE*/
-
-.thank-you {
-    text-align: center!IMPORTANT;
-}

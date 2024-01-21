@@ -56,3 +56,9 @@ __Medium Screens & Bigger__
 
 <img src="/assets/images/wf-home-lg.jpg" alt="Homepage wireframe for medium and larger screens" width="200px" /> <img src="/assets/images/wf-page2-lg.jpg" alt="Second page wireframe for medium and larger screens" width="200px"/> <img src="/assets/images/wf-join-lg.jpg" alt="Third page wireframe for medium and larger screens" width="200px"/> <img src="/assets/images/wf-landing-lg.jpg" alt="Landing page wireframe for medium and larger screens" width="200px"/>
 
+# Colour Scheme
+
+|#fffff|#fffafo|#eefaff|#35748e|#000000
+
+var sol_base = ['fffff', 'fffafo', '#eefaff', '#35748e', '#000000'];
+
