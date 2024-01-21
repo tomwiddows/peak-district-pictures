@@ -143,6 +143,15 @@ p a {
     max-height: 85vh;
 }
 
+.map-link {
+    color: black;
+}
+
+.map-link:hover{
+    text-decoration: underline;
+    color:#35748e;
+}
+
 .justify {
     text-align: justify;
 }
