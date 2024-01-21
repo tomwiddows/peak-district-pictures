@@ -20,6 +20,7 @@
 </head>
 <body>
     <div>
+        <!--Navigation bar-->
         <div>
             <nav class="navbar fixed-top navbar-expand-sm navbar-dark blue-background">
                 <a class="navbar-brand" href="#">The Peaks</a>
@@ -48,36 +49,40 @@
             </div>
         </header>
         
-        <section class="centralise">
-            <div>
+        <section class="centralise vertical-spacing">
+            <div class="slim">
                 <h3>Sign up to have your photos featured!</h3>
-                <p>Upload your photos and we will include them in our gallery below. If it <i>really </i>catches our eye, We will add it to our <a href="visit.html"><em>Where to Visit</em></a> page next month.</p>
+                <p>You will gain access to our monthly newsletter by email. Upload your photos and we will include them in our gallery below. If it really catches our eye, We will add it to our <a href="visit.html"><em>Where to Visit</em></a> page and/or newsletter next month.</p>
             </div>
             <div>
-                <label for="fname">First Name</label><br>
+                <label for="fname">First Name *</label><br>
                 <input id="fname" type="text" name="first-name" required>
                 <br>
-                <label for="lname">Surname</label><br>
+                <label for="lname">Surname *</label><br>
                 <input id="lname" type="text" name="last-name" required>
                 <br>
                 <label for="nname">Nickname</label><br>
-                <input id="nname" type="text" name="nick-name" required>
+                <input id="nname" type="text" name="nick-name">
                 <br>
-                <label for="email">Email Address</label><br>
+                <label for="email">Email Address *</label><br>
                 <input id="email" type="email" name="email-address" required>
                 <br>
                 <label class="form-label" for="custom-file">Upload Photos (Optional)</label><br>
                 <input id="custom-file" type="file" class="form-control">
+                <br><br>
+                <a  href="thankyou.html"><input type="submit" value="Join" id="submit-button"></a>
             </div>
         </section>
 
-        <section id="photo" class="">
+        <section id="photo" class="vertical-spacing">
             <img src="/assets/images/3-vs-nature.jpg">
             <img src="/assets/images/canopy.jpg">
             <img src="/assets/images/forest.jpg">
+            <img src="/assets/images/ladybower-crossing.jpg">
             <img src="/assets/images/hard-geezers.jpg">
-            <img src="/assets/images/splash.jpg">
+            <img src="/assets/images/cows.jpg">
             <img src="/assets/images/tower.jpg">
+            <img src="/assets/images/splash.jpg">
             <img src="/assets/images/tree.jpg">
             <img src="/assets/images/ice-cold.jpg">
             <img src="/assets/images/wonderland.jpg" alt="">

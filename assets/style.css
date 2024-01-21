@@ -147,9 +147,9 @@ p a {
     text-align: justify;
 }
 
-.videoclip {
-    max-height: 100%;
-}
+/*.videoclip {
+    max-height: 100;
+}*/
 
 /*COMMUNITY PAGE*/
 
@@ -162,6 +162,19 @@ input {
     max-width: 50vw;
 }
 
+#submit-button {
+    background-color: #35748e;
+    color: floralwhite;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#submit-button:hover {
+    background-color: #eefaff;
+    color: black;
+}
+
 #photo {
     clear: both;
     line-height: 0;
@@ -171,4 +184,11 @@ input {
 
 #photo img {
     width: 100%;
+}
+
+
+/*THANK YOU PAGE*/
+
+.thank-you {
+    left: 40%!IMPORTANT;
 }
