@@ -178,8 +178,17 @@ input {
 #photo {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 2;
     column-gap: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    #photo {
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0px;
+    }
 }
 
 #photo img {
@@ -190,5 +199,5 @@ input {
 /*THANK YOU PAGE*/
 
 .thank-you {
-    left: 40%!IMPORTANT;
+    text-align: center!IMPORTANT;
 }
