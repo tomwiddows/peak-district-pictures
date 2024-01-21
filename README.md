@@ -60,5 +60,10 @@ __Medium Screens & Bigger__
 
 |#fffff|#fffafo|#eefaff|#35748e|#000000
 
-var sol_base = ['fffff', 'fffafo', '#eefaff', '#35748e', '#000000'];
+- ![#ffffff](https://placehold.co/15x15/f03c15/f03c15.png) `#ffffff`
+- ![#fffaf0](https://placehold.co/15x15/c5f015/c5f015.png) `#fffaf0`
+- ![#eefaff](https://placehold.co/15x15/1589F0/1589F0.png) `#eefaff`
+- ![#35748e](https://placehold.co/15x15/f03c15/f03c15.png) `#35748e`
+- ![#35748e](https://placehold.co/15x15/c5f015/c5f015.png) `#35748e`
+- ![#000000](https://placehold.co/15x15/1589F0/1589F0.png) `#000000`
 
