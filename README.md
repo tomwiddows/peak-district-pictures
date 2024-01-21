@@ -58,10 +58,11 @@ __Medium Screens & Bigger__
 
 # Colour Scheme
 
+|`#ffffff`                                                 |`#fffaf0`                                                 |`#eefaff`                                                 |`#35748e`                                                 |`#000000`                                                 |
+|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
+|![#ffffff](https://placehold.co/100x100/ffffff/ffffff.png)|![#fffaf0](https://placehold.co/100x100/fffaf0/fffaf0.png)|![#eefaff](https://placehold.co/100x100/eefaff/eefaff.png)|![#35748e](https://placehold.co/100x100/35748e/35748e.png)|![#000000](https://placehold.co/100x100/000000/000000.png)|
+ 
 
-- ![#ffffff](https://placehold.co/100x100/ffffff/ffffff.png) `#ffffff`
-- ![#fffaf0](https://placehold.co/100x100/fffaf0/fffaf0.png) `#fffaf0`
-- ![#eefaff](https://placehold.co/100x100/eefaff/eefaff.png) `#eefaff`
-- ![#35748e](https://placehold.co/100x100/35748e/35748e.png) `#35748e`
-- ![#000000](https://placehold.co/100x100/000000/000000.png) `#000000`
+
+
 
