@@ -176,6 +176,10 @@ input {
     display: inline;
 }
 
+#text-box {
+    width: 100%;
+}
+
 #submit-button {
     background-color: #35748e;
     color: floralwhite;
@@ -189,6 +193,11 @@ input {
     color: black;
 }
 
+
+
+
+/*THANK YOU PAGE*/
+
 #photo {
     clear: both;
     line-height: 0;
@@ -200,7 +209,7 @@ input {
     #photo {
         clear: both;
         line-height: 0;
-        column-count: 4;
+        column-count: 3;
         column-gap: 0px;
     }
 }
@@ -208,5 +217,3 @@ input {
 #photo img {
     width: 100%;
 }
-
-/*THANK YOU PAGE*/

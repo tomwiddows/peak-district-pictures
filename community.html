@@ -59,50 +59,44 @@
         <!-- Signup form section -->
         <section class="centralise vertical-spacing slim">
             <div>
-                <h3>Sign up to receive our monthly newsetter</h3>
-                <p>You can also upload your photos and we will include them in our gallery below. If it really catches our eye, We will add it to our <a href="visit.html"><em>Where to Visit</em></a> page and/or newsletter next month.</p>
+                <h3>Sign up to view our community gallery</h3>
+                <p>You will also:</p> 
+                <ul>
+                    <li>Gain access to our monthly newsletter via email</li>
+                    <li>Have the chance to have your photo included in our <a href="visit.html"><em>Where to Visit</em></a> page and/or newsletter next month.</li>
+                    <li>Get the chance to see some amazing animal videos like the one below!</li>
+                </ul> </p>
+                <p></p>
             </div>
             <!-- Form for user registration -->
             <form action="thankyou.html">
                 <label for="fname">First Name (Required)</label><br>
-                <input id="fname" type="text" name="first-name" required>
+                <input id="fname" type="text" name="first-name" required aria-label="First Name Required">
                 <br>
                 <label for="lname">Surname (Required)</label><br>
-                <input id="lname" type="text" name="last-name" required>
+                <input id="lname" type="text" name="last-name" required aria-label="Surname Required">
                 <br>
                 <label for="nname">Nickname (Optional)</label><br>
-                <input id="nname" type="text" name="nick-name">
+                <input id="nname" type="text" name="nick-name" aria-label="Nickname Optional">
                 <br>
                 <label for="email">Email Address (Required)</label><br>
-                <input id="email" type="email" name="email-address" required>
+                <input id="email" type="email" name="email-address" required aria-label="Email Address Required">
                 <br>
-                <label class="form-label" for="custom-file">Upload Photos (Optional)</label><br>
-                <input id="custom-file" type="file" class="form-control">
+                <label class="form-label" for="custom-file">Upload Photos (Optional)</label>
+                <br>
+                <input id="custom-file" type="file" class="form-control" aria-label="Upload Photos Optional">
+                <br><br>
+                <textarea rows="8" name="description" id="text-box" placeholder="Please give us a description of your adventure from when you took this photo to increase the chance of us using it in our newsletter/Where to Visit page. It can be as detailed or as breif as you like. (Optional)"></textarea>
                 <br><br>
                 <input type="submit" value="Join" id="submit-button">
             </form>
         </section>
-
-        <!-- Gallery section -->
-        <sectionclass="vertical-spacing">
-            <h2 class="centralise">Gallery</h2>
+        <div class="centralise">
+            <video src="assets/video/ram.mp4" autoplay muted loop controls class="img-fluid videoclip fit" id="ram-video"></video>
             <br>
-            <!-- Photos -->
-            <div id="photo">
-                <img src="assets/images/3-vs-nature.jpg" alt="Three human shadows cast by low sunlight next to a lake">
-                <img src="assets/images/canopy.jpg" alt="Ladybower Reservoir viewed from beneath a tree">
-                <img src="assets/images/forest.jpg" alt="Two guys in the forest">
-                <img src="assets/images/ladybower-crossing.jpg" alt="View of a stream from a bridge crossing it">
-                <img src="assets/images/hard-geezers.jpg" alt="Two guys walking in the snow">
-                <img src="assets/images/cows.jpg" alt="A herd of cows looking ominous">
-                <img src="assets/images/tower.jpg" alt="Ladybower Dam">
-                <img src="assets/images/splash.jpg" alt="Lake having just been attacked by a pebble">
-                <img src="assets/images/tree.jpg" alt="Looking up at a fir tree">
-                <img src="assets/images/ice-cold.jpg" alt="Man tackling the elements, very snowy day">
-                <img src="assets/images/wonderland.jpg" alt="Jacob's ladder lonely tree and small waterfall">
-                <img src="assets/images/sheep.jpg" alt="Two sheep">
-            </div>
-        </section>
+            <label for="ram-video">Moments before this alpha goes on a rampage!</label>
+        </div>
+        
 
 
         <!-- Footer section -->
