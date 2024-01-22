@@ -72,4 +72,7 @@ The colours I selected were chosen to encapsulate the fresh feeling one gets whe
 
 # Features
 
-![Navigation Bar](image.png)
+![Navigation Bar](navbar.png)
+![Footer](footer.png)
+
+![Favicon](assets/images/favicon.ico)
