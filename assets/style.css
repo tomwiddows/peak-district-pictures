@@ -54,14 +54,14 @@ header div {
     color: floralwhite;
 }
 
-/*content sections*/
+/*Content sections*/
 
 p a {
     text-decoration: underline;
 }
-/*Separate rule to turn text in <a> links white*/
+
 .white-text {
-    color: floralwhite;
+    color: floralwhite;  /*Separate rule to turn text in <a> links white*/
 }
 
 .centralise {
@@ -75,6 +75,13 @@ p a {
 
 @media screen and (min-width: 768px) {
     .gray-background-lg {
+        background-color: #eefaff;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gray-background-sm {
         background-color: #eefaff;
 
     }
@@ -129,6 +136,12 @@ p a {
     .row-2-text {
         text-align: center;
         padding: 2em 0 2em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vertical-spacing-sm {
+        padding-bottom: 57px;
     }
 }
 
