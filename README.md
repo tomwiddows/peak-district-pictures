@@ -111,3 +111,5 @@ As stated above, this section on small screens contains both images. The light b
 
 ![Visit page section 1 - medium and large](assets/images/visit-section1-lg.png)
 ![Visit page section 1 - small](assets/images/visit-section1-sm.png)
+
+The first section of visit.html contains an introduction to the page and a contents box. These are paced in a bootstrap grid systen of two columns on medium and larger screens, and are set to take up the full width of small screens. The contents box has the same colour scheme as the navigation bar and footer to make it stand out.
