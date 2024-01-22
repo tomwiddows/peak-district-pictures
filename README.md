@@ -80,8 +80,25 @@ Font: Kanit. I chose this font due to its clean style. it strikes the midpoint b
 
 I designed my favicon on favicon.cc using te 16x16 form. Its design is some hills in the distance on a bright day with blue skies. It is not hugely clear what it is showing when in the tab, however its roundedness and colourfulness make it stand out enough.
 
-![Navigation Bar](navbar.png)
-![Footer](footer.png)
+![Navigation Bar - medium and larger screen](assets/images/navbar-lg.png)
+![Navigation Bar - small screens](assets/images/image-sm.png)
+![Footer](assets/images/footer.png)
 
-This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page.
+This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page. The header changes for small screens; the navigation links collapse and are accessed using the burger button in the top right corner. The footer remains consistent between screen sizes, except for the space in the middle.
 
+![Hero Image - medium and larger](assets/images/hero-lg.png)
+![Hero Image - small](assets/images/hero-sm.png)
+
+The hero images used were image taken by myself in the peak district. I took many photos there so had a lot of choice. I opted for two very similar pictures of the same view. These images both focus on the grass and flowers in the foreground, with the distant hills out of focus. This worked best with text over the top. I chose to have the text at the bottom of the image to not cover too much, but also so that the mnore detailed areas of the photo do not clash with the heading. They have both been cropped but the small screen image was originally vertical so could be cropped to size without removing any pixels to the left or right. 
+
+![Homepage section 1 - large screens](assets/images/home-section1-lg.png)
+![Homepage section 1 - medium screens](assets/images/home-section1-md.png)
+![Homepage section 1 - small screens](assets/images/home-section1-sm.png.png)
+
+This first section of the homepage features a heading and text informing users of some of the acvtivities on offer in the Peak district. These activities are included in the images throughout the homepage on large screens. On medium and small screens, three images are included instead of six.
+
+![Homepage section 2 - large screens](assets/images/home-section2-lg.png.png)
+![Homepage section 2 - medium screens](assets/images/home-section2-md.png.png)
+![Homepage section 2 - small screens](assets/images/home-section2-sm.png.png)
+
+This section is the first display of the light-blue background, visible on medium and large screens. This was not included in the small screen because none of the images in this section are included on a small screen. This is because I did not want to use a portrait image on small screens. If the blue background was applied
