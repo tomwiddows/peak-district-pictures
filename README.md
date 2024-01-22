@@ -81,7 +81,7 @@ Font: Kanit. I chose this font due to its clean style. it strikes the midpoint b
 I designed my favicon on favicon.cc using te 16x16 form. Its design is some hills in the distance on a bright day with blue skies. It is not hugely clear what it is showing when in the tab, however its roundedness and colourfulness make it stand out enough.
 
 ![Navigation Bar - medium and larger screen](assets/images/navbar-lg.png)
-![Navigation Bar - small screens](assets/images/image-sm.png)
+![Navigation Bar - small screens](assets/images/navbar-sm.png)
 ![Footer](assets/images/footer.png)
 
 This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page. The header changes for small screens; the navigation links collapse and are accessed using the burger button in the top right corner. The footer remains consistent between screen sizes, except for the space in the middle.
@@ -93,18 +93,21 @@ The hero images used were image taken by myself in the peak district. I took man
 
 ![Homepage section 1 - large screens](assets/images/home-section1-lg.png)
 ![Homepage section 1 - medium screens](assets/images/home-section1-md.png)
-![Homepage section 1 - small screens](assets/images/home-section1-sm.png.png)
+![Homepage section 1 - small screens](assets/images/home-section1-sm.png)
 
 This first section of the homepage features a heading and text informing users of some of the acvtivities on offer in the Peak district. These activities are included in the images throughout the homepage on large screens. On medium and small screens, three images are included instead of six.
 
-![Homepage section 2 - large screens](assets/images/home-section2-lg.png.png)
-![Homepage section 2 - medium screens](assets/images/home-section2-md.png.png)
-![Homepage section 2 - small screens](assets/images/home-section2-sm.png.png)
+![Homepage section 2 - large screens](assets/images/home-section2-lg.png)
+![Homepage section 2 - medium screens](assets/images/home-section2-md.png)
+![Homepage section 2 - small screens](assets/images/home-section2-sm.png)
 
 This section is the first display of the light-blue background. On medium and large screens, this was easy to implement. However, on small screens this proved more challenging as the layout changes. I did not want to use a portrait image on the small screen. I instead used the two landscape images from section 3, as seen below. Therefore, for consistency, I had to apply the light blue background to the first image of section 3. I also had to create a new class to apply padding-bottom to the first section so that there is blank white space before the blue starts on small screens. This rule, .vertical-spacing-sm, is also applied to the first image in section 3.
 
-![Homepage section 3 - large screens](assets/images/home-section3-lg.png.png)
-![Homepage section 3 - medium screens](assets/images/home-section3-md.png.png)
-![Homepage section 3 - small screens](assets/images/home-section3-sm.png.png)
+![Homepage section 3 - large screens](assets/images/home-section3-lg.png)
+![Homepage section 3 - medium screens](assets/images/home-section3-md.png)
+![Homepage section 3 - small screens](assets/images/home-section3-sm.png)
 
 As stated above, this section on small screens contains both images. The light blue background is applied to the first of these on small screens so that the pattern of text + image, text + image, text + image is copied by the background.
+
+![Visit page section 1 - medium and large](assets/images/visit-section1-lg.png)
+![Visit page section 1 - small](assets/images/visit-section1-sm.png)

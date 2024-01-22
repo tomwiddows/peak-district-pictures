@@ -84,6 +84,12 @@ p a {
     padding: 57px 0 57px 0;
 }
 
+@media screen and (max-width: 767px) {
+    .vertical-spacing-sm {
+        padding-bottom: 57px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .vertical-spacing-md {
         padding: 57px 0 57px 0;
@@ -129,12 +135,6 @@ p a {
     .row-2-text {
         text-align: center;
         padding: 2em 0 2em;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .vertical-spacing-sm {
-        padding-bottom: 57px;
     }
 }
 
