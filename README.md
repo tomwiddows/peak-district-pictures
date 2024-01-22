@@ -74,7 +74,9 @@ The colours I selected were chosen to encapsulate the fresh feeling one gets whe
 
 ## Features
 
-Font: Kanit. I chose this font due to its clean style. it strikes the midpoint between curvy and blocky. I used its em form for the main headings which really stands out and looks smart on top of my hero image.
+### Universal Features
+
+Font: Kanit. I chose this font due to its clean style. it strikes the midpoint between curvy and blocky. I used its emphasised form for the main headings which really stands out and looks smart on top of my hero image.
 
 ![Favicon](assets/images/favicon.ico)
 
@@ -85,6 +87,8 @@ I designed my favicon on favicon.cc using te 16x16 form. Its design is some hill
 ![Footer](assets/images/footer.png)
 
 This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page. The header changes for small screens; the navigation links collapse and are accessed using the burger button in the top right corner. The footer remains consistent between screen sizes, except for the space in the middle.
+
+### index.html Features
 
 ![Hero Image - medium and larger](assets/images/hero-lg.png)
 ![Hero Image - small](assets/images/hero-sm.png)
@@ -109,7 +113,11 @@ This section is the first display of the light-blue background. On medium and la
 
 As stated above, this section on small screens contains both images. The light blue background is applied to the first of these on small screens so that the pattern of text + image, text + image, text + image is copied by the background.
 
+### visit.html Features
+
 ![Visit page section 1 - medium and large](assets/images/visit-section1-lg.png)
 ![Visit page section 1 - small](assets/images/visit-section1-sm.png)
 
 The first section of visit.html contains an introduction to the page and a contents box. These are paced in a bootstrap grid systen of two columns on medium and larger screens, and are set to take up the full width of small screens. The contents box has the same colour scheme as the navigation bar and footer to make it stand out.
+
+The rest of the visit.html page consists of the location titles which link to google maps and an image and description of the location. The page follows the same alternating pattern of white and light blue backgrounds. 
