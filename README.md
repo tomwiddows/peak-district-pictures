@@ -101,4 +101,5 @@ This first section of the homepage features a heading and text informing users o
 ![Homepage section 2 - medium screens](assets/images/home-section2-md.png.png)
 ![Homepage section 2 - small screens](assets/images/home-section2-sm.png.png)
 
-This section is the first display of the light-blue background, visible on medium and large screens. This was not included in the small screen because none of the images in this section are included on a small screen. This is because I did not want to use a portrait image on small screens. If the blue background was applied
+This section is the first display of the light-blue background. On medium and large screens, this was easy to implement. However, on small screens this proved more challenging as the layout changes. I did not want to use a portrait image on the small screen. I instead used the two landscape images from section 3, as seen below. Therefore, for consistency, I had to apply the light blue background to the first image of section 3. I also had to create a new class to apply padding-bottom to the first section so that there is blank white space before the blue starts on small screens. This rule, .vertical-spacing-sm, is also applied to the first image in section 3.
+
