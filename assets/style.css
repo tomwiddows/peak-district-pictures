@@ -80,7 +80,6 @@ p a {
     }
 }
 
-
 .vertical-spacing {
     padding: 57px 0 57px 0;
 }
@@ -95,6 +94,10 @@ p a {
 
 .justify-right {
     text-align: right;
+}
+
+.pad {
+    padding: 6px 6px;  /*Also used for contents box*/
 }
 
 /*INDEX*/
@@ -139,10 +142,6 @@ p a {
     .slim {
         margin: 0 12vw 0 12vw;
     }
-}
-
-#contents-box {
-    padding: 6px 6px;
 }
 
 .fit {
