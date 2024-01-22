@@ -69,3 +69,7 @@ I initially planned to use the same design for screen sizes medium and larger. I
 |![#ffffff](https://placehold.co/100x100/ffffff/ffffff.png)|![#fffaf0](https://placehold.co/100x100/fffaf0/fffaf0.png)|![#eefaff](https://placehold.co/100x100/eefaff/eefaff.png)|![#35748e](https://placehold.co/100x100/35748e/35748e.png)|![#000000](https://placehold.co/100x100/000000/000000.png)|
  
 The colours I selected were chosen to encapsulate the fresh feeling one gets when in the countryside. The fresh air and blue skies are represented in the light colours. The very light blue is used an alternative background to the white white, to make successive sections stand out next to each other. The bold blue is a representation of the strength required to conquer the elements. I used this shade for the header and footer, and for the contents box on the visit page. For the text on these areas, as well as for the main h1 headings, I used the floralwhite preset. This off-white gave a subtle warmth to these sections. Black text was used for the rest of the page.
+
+# Features
+
+![Navigation Bar](image.png)
