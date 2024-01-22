@@ -163,12 +163,12 @@ p a {
 
 /*COMMUNITY PAGE*/
 
-/*Separate style rule for community heading due to longer title */
-@media screen and (max-width: 767px) {
+/*Separate style rule for community heading on very small screens due to longer title */
+@media screen and (max-width: 384px) {
     #align-join-heading {
         position: absolute;
         top: 52%;
-        bottom: 0; 
+        bottom: 0%; 
         left: 5%; 
         right: 0;
         text-align: left;
