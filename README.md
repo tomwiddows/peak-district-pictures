@@ -62,7 +62,9 @@ Another change made since the initial wireframes was to give the second page the
 
 I initially planned to use the same design for screen sizes medium and larger. I quickly discovered that this choice was not wise on my homepage due to how small the images would have to be. I chose a separate layout with only three images instead of six. For most of the site, the medium and large screens are the same.
 
-# Colour Scheme
+# Design
+
+## Colour Scheme
 
 |`#ffffff`                                                 |`#fffaf0`                                                 |`#eefaff`                                                 |`#35748e`                                                 |`#000000`                                                 |
 |----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|----------------------------------------------------------|
@@ -70,9 +72,18 @@ I initially planned to use the same design for screen sizes medium and larger. I
  
 The colours I selected were chosen to encapsulate the fresh feeling one gets when in the countryside. The fresh air and blue skies are represented in the light colours. The very light blue is used an alternative background to the white white, to make successive sections stand out next to each other. The bold blue is a representation of the strength required to conquer the elements. I used this shade for the header and footer, and for the contents box on the visit page. For the text on these areas, as well as for the main h1 headings, I used the floralwhite preset. This off-white gave a subtle warmth to these sections. Black text was used for the rest of the page.
 
-# Features
+## Features
+
+Font: Kanit. I chose this font due to its clean style. it strikes the midpoint between curvy and blocky. I used its em form for the main headings which really stands out and looks smart on top of my hero image.
+
+![Favicon](assets/images/favicon.ico)
+
+I designed my favicon on favicon.cc using te 16x16 form. Its design is some hills in the distance on a bright day with blue skies. It is not hugely clear what it is showing when in the tab, however its roundedness and colourfulness make it stand out enough.
 
 ![Navigation Bar](navbar.png)
 ![Footer](footer.png)
 
-![Favicon](assets/images/favicon.ico)
+This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page.
+
+
+
