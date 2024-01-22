@@ -103,3 +103,8 @@ This first section of the homepage features a heading and text informing users o
 
 This section is the first display of the light-blue background. On medium and large screens, this was easy to implement. However, on small screens this proved more challenging as the layout changes. I did not want to use a portrait image on the small screen. I instead used the two landscape images from section 3, as seen below. Therefore, for consistency, I had to apply the light blue background to the first image of section 3. I also had to create a new class to apply padding-bottom to the first section so that there is blank white space before the blue starts on small screens. This rule, .vertical-spacing-sm, is also applied to the first image in section 3.
 
+![Homepage section 3 - large screens](assets/images/home-section3-lg.png.png)
+![Homepage section 3 - medium screens](assets/images/home-section3-md.png.png)
+![Homepage section 3 - small screens](assets/images/home-section3-sm.png.png)
+
+As stated above, this section on small screens contains both images. The light blue background is applied to the first of these on small screens so that the pattern of text + image, text + image, text + image is copied by the background.
