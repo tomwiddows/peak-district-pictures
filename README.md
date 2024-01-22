@@ -85,5 +85,3 @@ I designed my favicon on favicon.cc using te 16x16 form. Its design is some hill
 
 This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page.
 
-
-

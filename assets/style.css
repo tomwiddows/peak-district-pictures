@@ -161,11 +161,23 @@ p a {
     text-align: justify;
 }
 
-/*.videoclip {
-    max-height: 100;
-}*/
-
 /*COMMUNITY PAGE*/
+
+/*Separate style rule for community heading due to longer title */
+@media screen and (max-width: 767px) {
+    #align-join-heading {
+        position: absolute;
+        top: 52%;
+        bottom: 0; 
+        left: 5%; 
+        right: 0;
+        text-align: left;
+        color: floralwhite;
+        font-size: larger;
+        font-weight: bolder;
+        font-style: italic;
+    }
+}
 
 input {
     max-width: 250px;
