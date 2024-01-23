@@ -7,7 +7,7 @@
 /*header*/
 
 #hero-image {
-    background-image: url('assets/images/peaks-background-sm.webp');
+    background-image: url('../images/peaks-background-sm.webp');
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 768px) {
     #hero-image {
-        background-image: url('assets/images/peaks-background-lg.webp');
+        background-image: url('../images/peaks-background-lg.webp');
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
