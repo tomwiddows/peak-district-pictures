@@ -106,6 +106,10 @@ p a {
     padding: 6px 6px;  /*Also used for contents box*/
 }
 
+.highlight:hover {
+    text-decoration: underline;
+}
+
 /*INDEX*/
 
 .activities {
