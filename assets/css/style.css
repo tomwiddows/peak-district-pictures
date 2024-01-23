@@ -1,0 +1,236 @@
+/*UNIVERSAL STYLES*/
+
+* {
+    font-family: Kanit, serif, Arial;
+}
+
+/*header*/
+
+#hero-image {
+    background-image: url('../assets/images/peaks-background-sm.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%; /* (img-height / img-width * width) */
+    margin-top: 55px;
+    position: relative;
+    background-color: #35748e;
+}
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+        background-image: url('../assets/images/peaks-background-lg.webp');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 0;
+        padding-top: 35.1%; /* (img-height / img-width * width) */
+        margin-top: 55px;
+        position: relative;
+        background-color: #35748e;
+    }
+}
+
+header {
+    width: 100%;
+}
+
+header div {
+    position: absolute;
+    top: 77%; 
+    bottom: 0; 
+    left: 5%; 
+    right: 0;
+    text-align: left;
+    color: floralwhite;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.blue-background {
+    background-color: #35748e;
+    color: floralwhite;
+}
+
+/*Content sections*/
+
+p a {
+    text-decoration: underline;
+}
+
+.white-text {
+    color: floralwhite;  /*Separate rule to turn text in <a> links white*/
+}
+
+.centralise {
+    text-align: center;
+}
+
+.gray-background {
+    background-color: #eefaff;
+
+}
+
+@media screen and (max-width: 767px) {
+    .gray-background-sm {
+        background-color: #eefaff;
+
+    }
+}
+
+.vertical-spacing {
+    padding: 57px 0 57px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .vertical-spacing-sm {
+        padding-bottom: 57px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .vertical-spacing-md {
+        padding: 57px 0 57px 0;
+    }
+}
+
+/*footer*/
+
+.justify-right {
+    text-align: right;
+}
+
+.pad {
+    padding: 6px 6px;  /*Also used for contents box*/
+}
+
+/*INDEX*/
+
+.activities {
+    max-width: 100vw;
+    height: auto;
+    padding: 0.25em 0 0.25em;
+}
+
+.row-1-and-3-text {
+    text-align: center;
+    padding: 2.5em 0 2em;
+}
+
+@media screen and (min-width: 768px) {
+    .row-1-and-3-text {
+        text-align: center;
+        padding: 1em 0 2em;
+    }
+}
+
+.row-2-text {
+    text-align: center;
+    padding: 2.5em 0 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .row-2-text {
+        text-align: center;
+        padding: 2em 0 2em;
+    }
+}
+
+/*VISIT PAGE*/
+
+.slim {
+    margin: 0 3% 0 3%;
+}
+
+@media screen and (min-width: 768px) {
+    .slim {
+        margin: 0 12vw 0 12vw;
+    }
+}
+
+.fit {
+    max-height: 85vh;
+}
+
+.map-link {
+    color: black;
+}
+
+.map-link:hover{
+    text-decoration: underline;
+    color:#35748e;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/*COMMUNITY PAGE*/
+
+/*Separate style rule for community heading on very small screens due to longer title */
+@media screen and (max-width: 384px) {
+    #align-join-heading {
+        position: absolute;
+        top: 52%;
+        bottom: 0%; 
+        left: 5%; 
+        right: 0;
+        text-align: left;
+        color: floralwhite;
+        font-size: larger;
+        font-weight: bolder;
+        font-style: italic;
+    }
+}
+
+input {
+    max-width: 250px;
+}
+
+#custom-file {
+    display: inline;
+}
+
+#text-box {
+    width: 100%;
+}
+
+#submit-button {
+    background-color: #35748e;
+    color: floralwhite;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#submit-button:hover {
+    background-color: #eefaff;
+    color: black;
+}
+
+
+
+
+/*THANK YOU PAGE*/
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    #photo {
+        clear: both;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0px;
+    }
+}
+
+#photo img {
+    width: 100%;
+}
