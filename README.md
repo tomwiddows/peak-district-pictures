@@ -86,7 +86,7 @@ I designed my favicon on favicon.cc using te 16x16 form. Its design is some hill
 ![Navigation Bar - small screens](assets/images/navbar-sm.png)
 ![Footer](assets/images/footer.png)
 
-This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page. The header changes for small screens; the navigation links collapse and are accessed using the burger button in the top right corner. The footer remains consistent between screen sizes, except for the space in the middle.
+This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page. The header changes for small screens; the navigation links collapse and are accessed using the burger button in the top right corner. The footer remains consistent between screen sizes. The social media icons are links that become underlined when hovered over.
 
 ### index.html Features
 
@@ -120,4 +120,98 @@ As stated above, this section on small screens contains both images. The light b
 
 The first section of visit.html contains an introduction to the page and a contents box. These are paced in a bootstrap grid systen of two columns on medium and larger screens, and are set to take up the full width of small screens. The contents box has the same colour scheme as the navigation bar and footer to make it stand out.
 
-The rest of the visit.html page consists of the location titles which link to google maps and an image and description of the location. The page follows the same alternating pattern of white and light blue backgrounds. 
+The rest of the visit.html page consists of the location titles which link to google maps and an image and description of the location. The page follows the same alternating pattern of white and light blue backgrounds. Each section has the .slim style applied to it, the text is justified and the images have a max height of 85vh to ensure the whole image will be visible. The following rules were used:
+
+.slim {
+    margin: 0 3% 0 3%;
+}
+
+@media screen and (min-width: 768px) {
+    .slim {
+        margin: 0 12vw 0 12vw;
+    }
+}
+
+.justify {
+    text-align: justify;
+}
+
+.fit {
+    max-height: 85vh;
+}
+
+### community.html Features
+
+![community.html header](iassets/images/community-header.png)
+
+There is a subtle difference in the h1 element's style in the community.html page compared to the others; the heading is too long to fit on one line on screens of width 384px and longer. This would cause it to continue on the line below so was not on top of the hero image. to fix this, the following css rule was used:
+
+/*Separate style rule for community heading on very small screens due to longer title */
+@media screen and (max-width: 384px) {
+    #align-join-heading {
+        position: absolute;
+        top: 52%;
+        bottom: 0%; 
+        left: 5%; 
+        right: 0;
+        text-align: left;
+        color: floralwhite;
+        font-size: larger;
+        font-weight: bolder;
+        font-style: italic;
+    }
+}
+
+![Intro section](assets/images/community-intro.png)
+
+The intro section highlights the features a user will benefit from in order of relevance; uploading images is not the first benefit because it may not apply to all users.
+
+![Form section](assets/images/community-form.png)
+![Submit button](assets/images/community-text-join.png)
+![Original button](assets/images/button.png)
+![Button on hover](assets/images/button-hover.png)
+
+
+The form section contains several input fields, some of which are necessary and some of which are optional. The Join button is styled to change colour to white when hovered over. Below is some of the html and css code used:
+
+<section class="vertical-spacing centralise gray-background">
+            <form action="thankyou.html" class="slim">
+                <label for="fname">First Name (Required)</label><br>
+                <input id="fname" type="text" name="first-name" required aria-label="First Name Required">
+                <br>
+                <label for="lname">Surname (Required)</label><br>
+                <input id="lname" type="text" name="last-name" required aria-label="Surname Required">
+                <br>
+                <label for="nname">Nickname (Optional)</label><br>
+                <input id="nname" type="text" name="nick-name" aria-label="Nickname Optional">
+                <br>
+                <label for="email">Email Address (Required)</label><br>
+                <input id="email" type="email" name="email-address" required aria-label="Email Address Required">
+                <br>
+                <label class="form-label" for="custom-file">Upload Photos (Optional)</label>
+                <br>
+                <input id="custom-file" type="file" class="form-control" aria-label="Upload Photos Optional">
+                <br><br>
+                <textarea rows="8" name="description" id="text-box" placeholder="Please give us a description of your adventure from when you took this photo to increase the chance of us using it in our newsletter/Where to Visit page. It can be as detailed or as breif as you like. (Optional)"></textarea>
+                <br><br>
+                <input type="submit" value="Join" id="submit-button">
+            </form>
+        </section>
+
+#submit-button {
+    background-color: #35748e;
+    color: floralwhite;
+    padding: 5px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+#submit-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+The final section of the community.html page is a video with a max-height of 85vh, again to ensure the whole video can fit on the screen with some space above and below. This page has the same styles for all screen sizes so different images have not been included.
+
+### thankyou.html Features
+
