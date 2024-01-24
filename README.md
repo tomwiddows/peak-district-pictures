@@ -256,4 +256,30 @@ The lighthouse performance score caused me some issues. The score of 71 was the 
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
+- [Favicon](https://www.favicon.cc/) used to make favicon.ico
+- [W3 Validator](https://validator.w3.org/) Used for code validation
+- [Font Awesome](https://fontawesome.com/) Used for social media and location icons
 
+# Citations
+
+- https://www.nationaltrust.org.uk/visit/peak-district-derbyshire/kinder-edale-and-the-high-peak/kinder-scout-mass-trespass-walk &
+- https://kittiaroundtheworld.com/finding-the-b-29-overexposed-crash-site-on-bleaklow-peak-district/ &
+- https://www.newforestnpa.gov.uk/about-us/uk-national-parks/#:~:text=National%20Parks%20are%20large%20areas,Access%20to%20the%20Countryside%20Act. & 
+- https://thewanderingwildflower.co.uk/peak-district-peak-bagging/#:~:text=According%20to%20Wikipedia%20there%20are,above%20600m%20over%20sea%20level. &
+- https://chat.openai.com/ Used for research on The Peaks
+
+- https://mhanational.org/surroundings/color-psychology-explained#:~:text=Bright%2C%20warm%20colors%20(reds%2C,purples)%20are%20soothing%20and%20calming. Short read on how colours affect emotions
+
+- https://getbootstrap.com/docs/5.2/examples/footers/ Used one of these as a template for my footer
+
+- https://stackoverflow.com/questions/7256065/specifying-style-and-weight-for-google-fonts Used to clarify font link syntax
+
+- https://www.lauraleeflores.com/blog/header-image-sizing-guide Info on choosing correct image, quality and aspect ratio for hero image
+
+- https://usability.yale.edu/web-accessibility/articles/links used to improve accessibility rating
+
+- https://stackoverflow.com/questions/11509830/how-to-add-color-to-githubs-readme-md-file For finding out how to add a colour scheme to readme file
+
+- https://8mb.video/ Used to compress video
+
+- https://pixelied.com/convert/jpg-converter/jpg-to-webp Used to compress images and change filetype
