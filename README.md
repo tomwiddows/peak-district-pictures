@@ -74,7 +74,7 @@ The colours I selected were chosen to encapsulate the fresh feeling one gets whe
 
 ## Features
 
-### Universal Features
+__Universal Features__
 
 Font: Kanit. I chose this font due to its clean style. it strikes the midpoint between curvy and blocky. I used its emphasised form for the main headings which really stands out and looks smart on top of my hero image.
 
@@ -88,7 +88,7 @@ I designed my favicon on favicon.cc using te 16x16 form. Its design is some hill
 
 This combination of blue and off-white really catches the eye, but does not overwhelm the serenity of the page. The header changes for small screens; the navigation links collapse and are accessed using the burger button in the top right corner. The footer remains consistent between screen sizes. The social media icons are links that become underlined when hovered over.
 
-### index.html Features
+__index.html Features__
 
 ![Hero Image - medium and larger](assets/images/hero-lg.png)
 ![Hero Image - small](assets/images/hero-sm.png)
@@ -113,7 +113,7 @@ This section is the first display of the light-blue background. On medium and la
 
 As stated above, this section on small screens contains both images. The light blue background is applied to the first of these on small screens so that the pattern of text + image, text + image, text + image is copied by the background.
 
-### visit.html Features
+__visit.html Features__
 
 ![Visit page section 1 - medium and large](assets/images/visit-section1-lg.png)
 ![Visit page section 1 - small](assets/images/visit-section1-sm.png)
@@ -140,7 +140,7 @@ The rest of the visit.html page consists of the location titles which link to go
     max-height: 85vh;
 }
 
-### community.html Features
+__community.html Features__
 
 ![community.html header](iassets/images/community-header.png)
 
@@ -213,5 +213,36 @@ The form section contains several input fields, some of which are necessary and 
 
 The final section of the community.html page is a video with a max-height of 85vh, again to ensure the whole video can fit on the screen with some space above and below. This page has the same styles for all screen sizes so different images have not been included.
 
-### thankyou.html Features
+__thankyou.html Features__
+
+![thankyou.html hero image](assets/images/thankyou-hero.png)
+
+For the landing page, it seemed wise to change up the format slightly to make the message clear that the signup was successful. The h1 element now has the .centralise class so is no longer aligned to the left.
+
+![Galllery - large](assets/images/thankyou-gallery-lg.png)
+![Galllery - small](assets/images/thankyou-gallery-sm.png)
+
+The gallery section has two layouts; three columns for medium and larger screens and two for small screens. they both have the .slim class applied, but the small screen class is within a media query causing a much smaller padding area and increasing the image size.
+
+## Future Features
+
+- Forum page after signing up so that members of the community can interact
+- Zooming hero image
+- User stories page
+
+# Testing
+
+## W3 Schools
+
+
+
+# Tools & Technologies
+
+- [HTML] used for the main site content.
+- [CSS] used for the main site design and layout.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
 
