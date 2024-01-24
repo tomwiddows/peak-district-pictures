@@ -142,7 +142,7 @@ The rest of the visit.html page consists of the location titles which link to go
 
 __community.html Features__
 
-![community.html header](iassets/images/community-header.png)
+![community.html header](assets/images/community-header.png)
 
 There is a subtle difference in the h1 element's style in the community.html page compared to the others; the heading is too long to fit on one line on screens of width 384px and longer. This would cause it to continue on the line below so was not on top of the hero image. to fix this, the following css rule was used:
 
