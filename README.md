@@ -232,17 +232,20 @@ The gallery section has two layouts; three columns for medium and larger screens
 
 # Testing
 
-## W3 Schools
+|Code          |W3 Schools Validators                                                  |Lighthouse Test                                                                  |
+|--------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|index.html    |![W3 HTML validator for index.html](assets/images/W3-index.png)        |![Lighthouse index.html test results](assets/images/lighthouse-index.png)        |
+|--------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|visit.html    |![W3 HTML validator for visit.html](assets/images/W3-visit.png)        |![Lighthouse visit.html test results](assets/images/lighthouse-visit.png)        |
+|--------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|community.html|![W3 HTML validator for community.html](assets/images/W3-community.png)|![Lighthouse community.html test results](assets/images/lighthouse-community.png)|
+|--------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|thankyou.html |![W3 HTML validator for thankyou.html](assets/images/W3-thankyou.png)  |![Lighthouse thankyou.html test results](assets/images/lighthouse-thankyou.png)  | 
+|--------------|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|style.css     |![W3 CSS validator for style.css](assets/images/W3-style.png)          |                                                                                 |
 
-|index.html    |![W3 HTML validator for index.html](assets/images/W3-index.png)        |
-|--------------|-----------------------------------------------------------------------|
-|visit.html    |![W3 HTML validator for visit.html](assets/images/W3-visit.png)        |
-|--------------|-----------------------------------------------------------------------|
-|community.html|![W3 HTML validator for community.html](assets/images/W3-community.png)| 
-|--------------|-----------------------------------------------------------------------|
-|thankyou.html |![W3 HTML validator for thankyou.html](assets/images/W3-thankyou.png)  | 
-|--------------|-----------------------------------------------------------------------|
-|style.css     |![W3 CSS validator for style.css](assets/images/W3-style.png)          | 
+
+The lighthouse performance score caused me some issues. The score of 71 was the highest I could achieve. The largest contributor to the load speed was the hero image for small screens. I compressed this image to 64kb which is the smallest in the page, however it is still the Largest Contentful Paint on the page. I also reduced the image size to a width of 450px and still the score would not increase. This score is acceptable coinsidering the number of images on the site, and the load time is modest.
 
 # Tools & Technologies
 
