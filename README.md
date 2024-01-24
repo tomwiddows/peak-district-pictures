@@ -234,12 +234,13 @@ The gallery section has two layouts; three columns for medium and larger screens
 
 ## W3 Schools
 
-|`#ffffff`                                                      |![W3 HTML validator for index.html](assets/images/W3-index.png)|
-|---------------------------------------------------------------|---------------------------------------------------------------|
-|                                                               |![W3 HTML validator for visit.html](assets/images/W3-visit.png)|
-|---------------------------------------------------------------|
-
-
+|index.html    |![W3 HTML validator for index.html](assets/images/W3-index.png)        |
+|--------------|-----------------------------------------------------------------------|
+|visit.html    |![W3 HTML validator for visit.html](assets/images/W3-visit.png)        |
+|--------------|-----------------------------------------------------------------------|
+|community.html|![W3 HTML validator for community.html](assets/images/W3-community.png)| 
+|--------------|-----------------------------------------------------------------------|
+|thankyou.html |![W3 HTML validator for thankyou.html](assets/images/W3-thankyou.png)  |
 
 # Tools & Technologies
 
