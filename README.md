@@ -240,7 +240,9 @@ The gallery section has two layouts; three columns for medium and larger screens
 |--------------|-----------------------------------------------------------------------|
 |community.html|![W3 HTML validator for community.html](assets/images/W3-community.png)| 
 |--------------|-----------------------------------------------------------------------|
-|thankyou.html |![W3 HTML validator for thankyou.html](assets/images/W3-thankyou.png)  |
+|thankyou.html |![W3 HTML validator for thankyou.html](assets/images/W3-thankyou.png)  | 
+|--------------|-----------------------------------------------------------------------|
+|style.css     |![W3 CSS validator for style.css](assets/images/W3-style.png)          | 
 
 # Tools & Technologies
 
